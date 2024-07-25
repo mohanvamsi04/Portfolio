@@ -1,45 +1,46 @@
 /*ctrl + alt + b is used to beutify the format */
+/*ctrl + alt + b is used to beutify the format */
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
-  font-size: 562.5%;/* It will create a dynamic font size as percentage or em  and 1em=16px */
-  font-family: 'Sacramento', cursive;
+  font-size: 562.5%; /* It will create a dynamic font size as percentage or em  and 1em=16px */
+  font-family: "Sacramento", cursive;
   margin: 50px auto 0 auto;
-  color: #66BFBF;
+  color: #66bfbf;
   /*line-height: 2; it is used to get a height or space*/
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: #66bfbf;
   font-weight: normal;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
 }
 
 .pro {
   text-decoration: underline;
 }
-.profileimg{
+.profileimg {
   height: 200px;
   width: 200px;
 }
 
 .top-container {
-  background-color: #E4F9F8;
+  background-color: #e4f9f8;
   position: relative;
   padding-top: 100px;
 }
 
-p{
+p {
   line-height: 2;
   padding-bottom: 20px;
 }
@@ -71,46 +72,46 @@ p{
   text-decoration: none;
 }
 
-hr{
-  border: dotted #EAF6F6 6px;
+hr {
+  border: dotted #eaf6f6 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
 }
 .middle-container {
-  margin:  100px 0;
+  margin: 100px 0;
 }
 
 .bottom-container {
   padding-bottom: 20px;
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   padding: 50px 0 20px;
 }
-a{
+a {
   margin: 10px 20px;
   text-decoration: none;
 }
-a:hover{
-  color: #EAF6F6;
+a:hover {
+  color: #eaf6f6;
 }
-.copyright{
-  color: #EAF6F6;
+.copyright {
+  color: #eaf6f6;
   font-size: 0.75rem;
   margin: 20px 0;
 }
-.skill-row{
+.skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   line-height: 2;
 }
-.skill{
+.skill {
   height: 200px;
-  width:200px;
+  width: 200px;
 }
 .top-cloud {
   position: absolute;
-  right: 25rem;/*25rem=400px*/
-  top: 3.125rem;/*50px=3.125rem*/
+  right: 25rem; /*25rem=400px*/
+  top: 3.125rem; /*50px=3.125rem*/
 }
 
 .bottom-cloud {
@@ -118,9 +119,56 @@ a:hover{
   bottom: 300px;
   left: 400px;
 }
-.footer-link{
-  color: #11999E;
+.footer-link {
+  color: #11999e;
 }
-.btn{
-  color: #11999E;
+.btn {
+  color: #11999e;
+}
+
+.olitems {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.ali {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.header {
+  background-color: #e4f9f8;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #66bfbf;
+}
+
+#ip {
+  font-size: 1.5rem;
+  margin-top: 5px;
+  margin-left: 2rem;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.cp {
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.icon {
+  height: 5rem;
+  width: 5rem;
 }
